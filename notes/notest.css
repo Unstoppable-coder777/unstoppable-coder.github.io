@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:monsterrat,sans-serif;
+}
+body{
+	width:100vw;
+	height:100vh;
+	background-color:#000;
+	color:#fff;
+}
+#head{
+	text-align:center;
+	text-decoration:underline;
+	padding:1rem 0;
+}
+.box{
+	margin:3rem 0 0 0;
+	display:flex;
+	align-items:center;
+    justify-content:space-around;
+	flex-wrap:wrap;
+	width:85vw;
+	height:80vh;
+	/*border:2px solid #fff;*/
+	position:relative;
+	left:7%;
+}
+.box .note1{
+	width:10rem;
+	height:10rem;
+	border:2px solid #fff;
+	position:relative;
+	top:-10%;
+}
+.box .note1 #java,#vb,#wd,#iot,#is{
+	position:relative;
+	top:45%;
+	left:40%;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+.box .note1:hover{
+	height:12rem;
+	background-color:#346adb;
+	font-weight:bold;
+	cursor:pointer;
+	transition:0.4s;
+}
+@media (max-width:768px){
+	.box .note1{
+		width:15rem;
+		height:15rem;
+	}
+}
