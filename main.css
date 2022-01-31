@@ -60,7 +60,8 @@ header nav ul li a:hover,header nav ul li .active{
 	background-image:url('background/bg.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
-        background-position:fixed;
+        background-position:center;
+        background-attachment:fixed;
 	margin-left:auto;
 	margin-right:auto;
 	display:flex;
