@@ -56,7 +56,7 @@ header nav ul li a:hover,header nav ul li .active{
 }
 .box{
 	width:100vw;
-	height:100%;
+	height:100vh;
 	background-image:url('background/bg.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
