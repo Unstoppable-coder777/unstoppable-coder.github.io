@@ -61,7 +61,7 @@ header nav ul li a:hover,header nav ul li .active{
 	background-repeat:no-repeat;
 	background-size:cover;
         background-position:center;
-        background-attachment:scroll;
+        background-attachment:fixed;
 	/*margin-left:auto;
 	margin-right:auto;*/
 	display:flex;
